@@ -1,5 +1,5 @@
 <?php
 $myfile = fopen("index.php", "r") or die("Unable to open file!");
-echo fgets($myfile);
+echo base64_encode(fgets($myfile));
 fclose($myfile);
 ?>
