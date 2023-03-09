@@ -1,4 +1,5 @@
 <?php
-$homepage = system('cat .passwd');
-echo $homepage;
+$myfile = fopen(".passwd", "r") or die("Unable to open file!");
+echo fgets($myfile);
+fclose($myfile);
 ?>
