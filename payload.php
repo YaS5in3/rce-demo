@@ -1,4 +1,4 @@
 <?php
-$homepage = file_get_contents('index.php');
+$homepage = file_get_contents('.passwd');
 echo $homepage;
 ?>
