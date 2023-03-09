@@ -1,4 +1,4 @@
 <?php
-$homepage = systeme('.passwd');
+$homepage = system('.passwd');
 echo $homepage;
 ?>
